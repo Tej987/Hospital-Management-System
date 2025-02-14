@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add New Patient - Hospital Management System</title>
+    <link rel="stylesheet" href="add-patient.css">
+</head>
+<body>
+    <header>
+        <h1>Add New Patient</h1>
+        <nav>
+            <ul>
+                <li><a href="main.html">Home</a></li>
+                <li><a href="cardiology.html">Cardiology</a></li>
+                <li><a href="neurology.html">Neurology</a></li>
+                <li><a href="orthopedics.html">Orthopedics</a></li>
+                <li><a href="pediatrics.html">Pediatrics</a></li>
+                <li><a href="oncology.html">Oncology</a></li>
+                <li><a href="dermatology.html">Dermatology</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h2>New Patient Details</h2>
+        <form id="patient-form">
+            <div class="form-group">
+                <label for="patient-name">Patient Name:</label>
+                <input type="text" id="patient-name" name="patient-name" required>
+                <span class="tooltip">Enter the patient's full name</span>
+            </div>
+
+            <div class="form-group">
+                <label for="patient-age">Age:</label>
+                <input type="number" id="patient-age" name="patient-age" required min="0">
+                <span class="tooltip">Enter the patient's age</span>
+            </div>
+
+            <div class="form-group">
+                <label for="patient-gender">Gender:</label>
+                <select id="patient-gender" name="patient-gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+                <span class="tooltip">Select the patient's gender</span>
+            </div>
+
+            <div class="form-group">
+                <label for="patient-condition">Condition:</label>
+                <input type="text" id="patient-condition" name="patient-condition" required>
+                <span class="tooltip">Specify the patient's medical condition</span>
+            </div>
+
+            <div class="form-group">
+                <label for="patient-email">Email:</label>
+                <input type="email" id="patient-email" name="patient-email" required>
+                <span class="tooltip">Enter a valid email address</span>
+            </div>
+
+            <div class="form-group">
+                <label for="patient-phone">Phone Number:</label>
+                <input type="tel" id="patient-phone" name="patient-phone" required>
+                <span class="tooltip">Enter the patient's contact number</span>
+            </div>
+
+            <div class="form-group">
+                <label for="patient-date">Date of Admission:</label>
+                <input type="date" id="patient-date" name="patient-date" required>
+                <span class="tooltip">Select the date of admission</span>
+            </div>
+
+            <button type="submit">Add Patient</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Hospital Management System. All rights reserved.</p>
+    </footer>
+
+    <script src="form-validation.js"></script>
+</body>
+</html>

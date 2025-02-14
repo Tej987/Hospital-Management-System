@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #004080;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #0059b3;
+}
+
+h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+#dermatology-overview {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.overview-content {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.overview-image {
+    flex: 1;
+    background-image: url('dermatology.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    border-radius: 10px;
+}
+
+#dermatology-specialities {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+#dermatology-specialities ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#dermatology-specialities ul li {
+    margin: 10px 0;
+}
+
+#dermatology-specialities ul li a {
+    color: #004080;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s, text-decoration 0.3s;
+}
+
+#dermatology-specialities ul li a:hover {
+    color: #00264d;
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #00264d;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+footer p {
+    margin: 0;
+}

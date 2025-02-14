@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #004080;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #0059b3;
+    color: #f4f4f4;
+}
+
+h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+#neurology-overview {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.overview-content {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.overview-content h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.overview-content p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.overview-image {
+    flex: 1;
+    background-image: url('neurology.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    border-radius: 10px;
+}
+
+#neurology-specialities {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#neurology-specialities h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+#neurology-specialities ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#neurology-specialities ul li {
+    margin: 10px 0;
+}
+
+#neurology-specialities ul li a {
+    color: #004080;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s, text-decoration 0.3s;
+}
+
+#neurology-specialities ul li a:hover {
+    color: #00264d;
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #00264d;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
